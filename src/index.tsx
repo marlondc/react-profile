@@ -8,10 +8,10 @@ import { Route, BrowserRouter as Router, Link } from "react-router-dom";
 
 ReactDOM.render(
   <Router>
-    <Fragment>
+    <div className="container">
       <Route exact path="/" component={App} />
       <Route exact path="/profile" component={Profile} />
-    </Fragment>
+    </div>
   </Router>,
   document.getElementById("root")
 );
