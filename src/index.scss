@@ -1,4 +1,5 @@
 body {
+  font-family: "Neuton";
   margin: 0;
   padding: 0;
 }
@@ -9,3 +10,9 @@ $color-pewter: #DEE7E7;
 $color-purple: #B7ADCF;
 $color-spaceBlue: #4F646F;
 $color-ironGrey: #535657;
+$color-white: #ffffff;
+$color-black: #000000;
+
+// fonts
+
+@import url('https://fonts.googleapis.com/css?family=Neuton:200,300,400,400i,700,800');

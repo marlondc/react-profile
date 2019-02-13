@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+.copy {
+  color: $color-black;
+  font-family: "Neuton";
+  font-size: 1.5rem;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,13 @@
+@import "../../index.scss";
+
+.header {
+  color: $color-black;
+  font-family: "Neuton";
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+
+  @media (min-width: 768px) {
+    font-size: 4rem;
+  }
+}

@@ -1,15 +1,20 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import H1 from "../H1";
+import Copy from "../Copy";
+import Background from "../Background";
 
-import './index.scss';
+import "./index.scss";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>Marlon</h1>
-        </header>
-      </div>
+      <Background>
+        <div className="App">
+          <H1>marlon dc</H1>
+          <div className="spacing--2" />
+          <Copy>Javscript Developer based in Toronto</Copy>
+        </div>
+      </Background>
     );
   }
 }
