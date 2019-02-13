@@ -5,11 +5,11 @@ import Background from "../Background";
 
 import "./index.scss";
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
       <Background>
-        <div className="App">
+        <div className="Home">
           <H1>marlon dc</H1>
           <div className="spacing--2" />
           <Copy>Javscript Developer based in Toronto</Copy>
@@ -19,4 +19,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
