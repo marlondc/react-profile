@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="Home">
           <H1>marlon dc</H1>
           <div className="spacing--2" />
-          <Copy>Javscript Developer based in Toronto</Copy>
+          <Copy>Javascript Developer based in Toronto</Copy>
         </div>
       </Background>
     );
